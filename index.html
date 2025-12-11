@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golf Budget Calculator</title>
+    <link rel="stylesheet" href="golf.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Golf Budget Calculator</h1>
+        <p id="date"></p>
+
+        <h3>Welcome to Golf Budget Calculator!</h3>
+        <h4>Enter your monthly costs and click Calculate to see your total golf expenses.</h4>
+
+        <label>
+            Cost of a dozen golf balls:
+            <input type="number" id="golfBalls" placeholder="Enter the cost of a dozen" min="0" step="0.01">
+        </label>
+
+        <label>
+            Cost of a golf glove:
+            <input type="number" id="gloves" placeholder="Enter the cost of a glove" min="0" step="0.01">
+        </label>
+
+        <label>
+            Cost of a round of golf:
+            <input type="number" id="golfRounds" placeholder="Enter the cost of a round" min="0" step="0.01">
+        </label>
+
+        <label>
+            Cost of snacks:
+            <input type="number" id="snacks" placeholder="Enter the cost of snacks" min="0" step="0.01">
+        </label>
+
+        <label>
+            Cost of a golf lesson:
+            <input type="number" id="lessons" placeholder="Enter the cost of a lesson" min="0" step="0.01">
+        </label>
+
+        <label>
+            Your monthly golf budget:
+            <input type="number" id="budget" placeholder="Enter your monthly budget" min="0" step="0.01">
+        </label>
+
+        <button id="calculateBtn">Calculate</button>
+
+        <p id="result"></p>
+        <p id="advice"></p>
+    </div>
+
+    <script src="golf.js"></script>
+</body>
+</html>

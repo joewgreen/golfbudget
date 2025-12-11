@@ -1,0 +1,1 @@
+I created this web app to input my monthly golf expenses and see if I am within budget. Ive actually found this very helpful in real life when comparing my montly expenses.
